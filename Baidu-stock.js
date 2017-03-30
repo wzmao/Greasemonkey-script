@@ -1,8 +1,6 @@
 // ==UserScript==
 // @name        Baidu-stock
 // @namespace   baidu
-// @include     http://www.baidu.com/
-// @include     https://www.baidu.com/
 // @include     https://www.baidu.com
 // @include     http://www.baidu.com
 // @version     1

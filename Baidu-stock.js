@@ -16,7 +16,7 @@ window.addstock = function () {
     findpic = findpics.snapshotItem(i);
     newele = document.createElement('img');
     newele.src = 'http://pifm3.eastmoney.com/EM_Finance2014PictureInterface/Index.aspx?id=0000011&imageType=r&token=44c9d251add88e27b65ed86506f6e5da';
-    newele.style = 'position:absolute;margin-left:135px;left:50%;bottom:10px;';
+    newele.style = 'position:absolute;margin-left:135px;left:50%;bottom:50px;';
     newele.height = 165.6;
     newele.width = 346.8;
     //newele.innerHTML = '<img src="http://pifm3.eastmoney.com/EM_Finance2014PictureInterface/Index.aspx?id=0000011&amp;imageType=r&amp;token=44c9d251add88e27b65ed86506f6e5da" border="0" height="276" width="578">';

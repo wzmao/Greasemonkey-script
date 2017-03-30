@@ -6,6 +6,17 @@
 // @version     1
 // @grant       none
 // ==/UserScript==
+
+async function wait() {
+  console.log('Hello')
+  await sleep(500)
+  console.log('world!')
+}
+
+function sleep(ms) {
+  return new Promise(resolve => setTimeout(resolve, ms))
+}
+
 function getcha(img) {
 	var canvas = document.createElement('canvas');
 	var width=img.naturalWidth,height=img.naturalHeight;
@@ -96,6 +107,7 @@ function checkcha() {
 	}
 	box = box.snapshotItem(0);
 	box.click();
+	wait();
 	var image = document.getElementsByClassName('captcha-img v-top')[0];
 	answer=getcha(image);
 	if (answer==undefined){
